@@ -15,8 +15,8 @@
 
 ## 📁 Carpetas
 
-- [Carpeta Tasca1](Tasca1)
-- [Carpeta Tasca2](Tasca2)
+- [Carpeta Tasca1](Tasca1.md)
+- [Carpeta Tasca2](Tasca2.md)
 - [Carpeta Tasca3](Tasca3)
 - [Carpeta Tasca4](Tasca4)
 - [Carpeta Tasca5](Tasca5)
