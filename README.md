@@ -28,8 +28,8 @@
 
 ## 📝 Tascas
 
-- [Tasca1](T01)
-- [Tasca2](T02)
+- [Tasca1](T01.md)
+- [Tasca2](T02.md)
 - [Tasca3](T03)
 - [Tasca4](T04)
 - [Tasca5](T05)
