@@ -1,0 +1,63 @@
+🧩 1. Unión de Zorin OS al dominio (2 puntos)
+🔧 Procedimiento
+Instala los paquetes necesarios:
+sudo apt update
+sudo apt install realmd sssd sssd-tools samba-common krb5-user packagekit
+Descubre el dominio:
+realm discover TU_DOMINIO.LOCAL
+Une el equipo al dominio:
+sudo realm join TU_DOMINIO.LOCAL -U administrador
+
+👉 Te pedirá la contraseña del administrador del dominio.
+
+Comprueba que está unido:
+realm list
+
+
+
+
+[PEGA AQUÍ TU CAPTURA]
+👤 2. Validación de acceso con usuario del dominio (2 puntos)
+
+⚠️ Importante: usa un usuario de un grupo creado (NO solo Administrator).
+
+🔧 Procedimiento
+Cierra sesión en Zorin OS.
+En la pantalla de login, escribe el usuario del dominio:
+usuario@dominio.local
+
+o
+
+DOMINIO\usuario
+Inicia sesión.
+Comprueba desde terminal:
+whoami
+
+📸 Captura 2: Usuario del dominio logueado (whoami)
+
+[PEGA AQUÍ TU CAPTURA]
+📁 3. Acceso a carpeta personal (2 puntos)
+🔧 Procedimiento
+Accede a la carpeta compartida del servidor (normalmente con SMB):
+xdg-open smb://IP_SERVIDOR
+Introduce credenciales del dominio.
+Entra en tu carpeta personal (ej: /home/usuarios/tu_usuario).
+Crea un archivo de prueba:
+touch prueba.txt
+
+📸 Captura 3: Acceso a carpeta personal + archivo creado
+
+[PEGA AQUÍ TU CAPTURA]
+👥 4. Acceso a carpeta de grupo (2 puntos)
+🔧 Procedimiento
+Desde el mismo recurso SMB:
+xdg-open smb://IP_SERVIDOR/carpeta_grupo
+Comprueba permisos:
+Lectura
+Escritura
+Crea un archivo:
+touch grupo.txt
+
+📸 Captura 4: Acceso a carpeta de grupo + archivo
+
+[PEGA AQUÍ TU CAPTURA]
