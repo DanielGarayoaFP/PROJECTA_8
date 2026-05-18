@@ -24,7 +24,7 @@
 - [Carpeta Tasca7](Tasca7.md)
 - [Carpeta Tasca8](Tasca8.md)
 - [Carpeta Tasca9](Tasca9.md)
-- [Carpeta Tasca10](Tasca10.md)
+- [CARPETAKALI](Tasca10.md)
 
 ## 📝 Tascas
 
