@@ -37,4 +37,4 @@
 - [Tasca7](T07.md)
 - [Tasca8](T08.md)
 - [Tasca9](T09.md)
-- [Tasca10](KALI2.0.md)
+- [Tasca10](Kali2.0.md)
