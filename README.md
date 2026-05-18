@@ -24,7 +24,7 @@
 - [Carpeta Tasca7](Tasca7.md)
 - [Carpeta Tasca8](Tasca8.md)
 - [Carpeta Tasca9](Tasca9.md)
-- [CARPETAKALI](Tasca10.md)
+- [CARPETAKALI](CARPETAKALI.md)
 
 ## 📝 Tascas
 
@@ -37,4 +37,4 @@
 - [Tasca7](T07.md)
 - [Tasca8](T08.md)
 - [Tasca9](T09.md)
-- [Tasca10](T10.md)
+- [Tasca10](KALI2.0.md)
